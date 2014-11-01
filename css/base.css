@@ -17,6 +17,8 @@ p {
 
 
 header {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 100;
     background-color: #000000;
     color: #ffffff;
     height: 45px;
@@ -32,7 +34,7 @@ header h1 {
     float: left; 
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 200;
     padding: 10px; /* TRouBLe */
 }
 
@@ -55,28 +57,31 @@ header a:active {
 header a:focus {}
 
 article {
+    font-family: helvetica, arial, sans-serif;
     clear: both;
     padding: 0 10px 0 10px;
 }
 
 article h1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 44px;
-    margin-top: 4px;
+    margin-top: 10px;
 }
+    
 
 aside {
     background-color: #000000;
-    float: right;
+    float: left;
     margin: 0 0 10px 5%;
-    width: 45%;
+    width: 100%;
     
 }
 
 article h2 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
-    mergin-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 footer {
