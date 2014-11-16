@@ -19,7 +19,7 @@ p {
 header {
     font-family: helvetica, arial, sans-serif;
     font-weight: 100;
-    background-color: #000000;
+    background-color: #0F7362;
     color: #ffffff;
     height: 45px;
 }
@@ -39,7 +39,7 @@ header h1 {
 }
 
 header a {
-    color: #aaaaaa;
+    color: #ffffff;
     margin-right: 20px;
     text-decoration: none;
     
@@ -68,6 +68,10 @@ article h1 {
     margin-top: 10px;
 }
     
+div {
+    float: left;
+    
+}
 
 aside {
     background-color: #000000;
