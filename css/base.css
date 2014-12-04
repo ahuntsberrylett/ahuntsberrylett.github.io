@@ -65,7 +65,7 @@ article {
 }
 
     
-div, {
+div {
     float:left;
     width: 90%;
     margin-left: 5%;
@@ -74,8 +74,20 @@ div, {
     padding-bottom: 5px;
 }
 
-div#about {
+aside {
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+p#about {
+    float:;
+}
+
+div#img {
     float: left;
+    margin-top: 0px;
 }
 
 div#wufoo-zj8w5of0gbx5to {
@@ -98,7 +110,7 @@ li#port {
 
 
 footer {
-    clear: right;
+    clear:both;
     height: 100px;
     font-size: 12px;
     padding: 25px 10px 0 10px;
