@@ -28,11 +28,12 @@ header nav {
     float: left;
     margin-top: 40px;
     width: 45%;
+    margin-left: 10px;
 }
 
 header h1 {
     float: left; 
-    width: 53%;
+    width: 51%;
     font-family: font-family: 'Lobster Two', cursive;
     font-size: 38px;
     font-weight: 500;
