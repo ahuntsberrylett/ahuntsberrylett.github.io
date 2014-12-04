@@ -81,8 +81,8 @@ aside {
     margin-right: 33%;
 }
 
-p#about {
-    float:;
+p.about {
+    margin-top: 5px;
 }
 
 div#img {
