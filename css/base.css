@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: o;
+    padding: 0;
 }
 
 body {
@@ -21,21 +21,23 @@ header {
     font-weight: 100;
     background-color: #0F7362;
     color: #ffffff;
-    height: 75px;
+    height: 100px;
 }
 
 header nav {
     float: left;
-    margin-top: 25px;
-
+    margin-top: 40px;
+    width: 45%;
 }
 
 header h1 {
     float: left; 
+    width: 53%;
     font-family: font-family: 'Lobster Two', cursive;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 500;
-    padding: 25px; /* TRouBLe */
+    padding-left: 3%;
+    padding-top: 35px;/* TRouBLe */
 }
 
 header a {
@@ -140,10 +142,29 @@ iframe {
     margin-right: 5%;
 }
 
-@media screen (max-width: 600px) {
-        nav {
-            width: 90%;
-            color: #0F7362;
+@media screen and (max-width: 600px) {
+    header {
+        width: 100%;
+        height: 150px;
+    }
+    
+    header h1 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 3%;
+    }
+        
+    header nav {
+        width: 100%;
+        height: 30px;
+        background-color: #0F7362;
+        padding-left: 12%;
+    }
+    
+    article {
+        padding: 5%;
+    }
+    
         }
         
             
