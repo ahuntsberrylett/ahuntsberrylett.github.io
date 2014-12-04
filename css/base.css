@@ -65,13 +65,17 @@ article {
 }
 
     
-div {
+div, {
     float:left;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 10px;
     padding-bottom: 5px;
+}
+
+div#about {
+    float: left;
 }
 
 div#wufoo-zj8w5of0gbx5to {
