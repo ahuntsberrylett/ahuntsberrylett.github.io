@@ -66,12 +66,11 @@ article {
 
     
 div {
-    float:left;
+    float: left;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 10px;
-    padding-bottom: 5px;
 }
 
 aside {
@@ -141,4 +140,14 @@ iframe {
     margin-right: 5%;
 }
 
-
+@media screen (max-width: 600px) {
+        nav {
+            width: 90%;
+            color: #0F7362;
+        }
+        
+            
+        }
+    
+    
+}
