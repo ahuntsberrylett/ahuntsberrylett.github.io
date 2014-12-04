@@ -73,7 +73,17 @@ div {
     padding-top: 10px;
     padding-bottom: 5px;
 }
-    
+
+ul.portfolio {
+    list-style-type: disc;
+}
+
+li#port {
+    list-style-type: disc;
+    display: list-item;
+}
+
+
 footer {
     clear: right;
     height: 100px;
