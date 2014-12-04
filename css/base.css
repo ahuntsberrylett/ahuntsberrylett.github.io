@@ -78,9 +78,14 @@ ul.portfolio {
     list-style-type: disc;
 }
 
+h3 {
+    margin-top: 30px;
+}
+
 li#port {
     list-style-type: disc;
     display: list-item;
+    margin-bottom: 5px;
 }
 
 
